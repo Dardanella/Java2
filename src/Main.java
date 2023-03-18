@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        int bilet = 133;
-        int shag = 20;
-        int mileNaShag = 1;
-        int bonusNaBilet = bilet / shag * mileNaShag;
-        System.out.println("Начислено бонусов:" + bonusNaBilet);
+        int ticket = 133;
+        int step = 20;
+        int mileOnTicket = 1;
+        int bonusTicket = ticket / step * mileOnTicket;
+        System.out.println("Начислено бонусов:" + bonusTicket);
 
     }
 }
